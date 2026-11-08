@@ -6,6 +6,8 @@ This repository publishes the [REZONIQ](https://github.com/REZONIQ) organization
 Run `just check` with the NDDev documentation tools installed to check the Markdown and justfile.
 Product research and decisions live in the private `REZONIQ/rezoniq` repository.
 
+The organization avatar is [the REZONIQ orbital R](profile/assets/rezoniq-avatar.png).
+
 ## Credit
 
 Created by Danil Silantyev, NDDev. When reusing this material, please name NDDev and link to
