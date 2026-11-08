@@ -1,0 +1,28 @@
+{
+  "vcs": {
+    "enabled": true,
+    "clientKind": "git",
+    "useIgnoreFile": true
+  },
+  "files": {
+    "ignoreUnknown": true
+  },
+  "formatter": {
+    "indentStyle": "space"
+  },
+  "markdown": {
+    "parser": {
+      "frontmatter": true
+    },
+    "formatter": {
+      "enabled": true,
+      "proseWrap": "preserve",
+      "formatEmbeds": false
+    }
+  },
+  "yaml": {
+    "formatter": {
+      "enabled": true
+    }
+  }
+}

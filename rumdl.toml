@@ -1,0 +1,55 @@
+[global]
+cache = false
+# Biome owns Markdown layout, line wrapping and marker style.
+disable = [
+  "MD003",
+  "MD004",
+  "MD005",
+  "MD007",
+  "MD009",
+  "MD010",
+  "MD012",
+  "MD013",
+  "MD018",
+  "MD019",
+  "MD020",
+  "MD021",
+  "MD022",
+  "MD023",
+  "MD027",
+  "MD028",
+  "MD029",
+  "MD030",
+  "MD031",
+  "MD032",
+  "MD034",
+  "MD035",
+  "MD037",
+  "MD038",
+  "MD039",
+  "MD046",
+  "MD047",
+  "MD048",
+  "MD049",
+  "MD050",
+  "MD055",
+  "MD060",
+  "MD064",
+  "MD065",
+  "MD071",
+  "MD076",
+  "MD077",
+  "MD085",
+  "MD090",
+  # Lychee checks local destinations and fragments across the repository.
+  "MD051",
+  "MD057",
+]
+# A suppression must still match a finding.
+extend-enable = ["MD087"]
+
+[per-file-ignores]
+# History starts with the archival warning and keeps separate top-level session sections.
+"docs/history/**/*.md" = ["MD025", "MD041"]
+# Claude imports the repository instructions through this one-line reference.
+"CLAUDE.md" = ["MD041"]
