@@ -1,0 +1,18 @@
+name: ci
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, labeled, edited]
+  push:
+    branches: [dev]
+  workflow_dispatch: {}
+
+permissions: {}
+
+jobs:
+  check:
+    uses: NDDev-Technocracy-OpenNetwork/nddev-ci/.github/workflows/check.yml@c561c2c5e1cd62022ed6f41b9424be35e6fa3824 # v0.6.71
+    permissions:
+      contents: read
+    with:
+      tool-assets: .github/ci-tools.json

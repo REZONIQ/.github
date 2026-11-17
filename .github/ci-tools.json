@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "assets": [
+    {
+      "repository": "rvben/rumdl",
+      "asset": 733166615,
+      "size": 8442483,
+      "sha256": "225291d073d46654030cb2c256ce98252965e1f475b77fee4f28a3dbb3632cfd",
+      "file": "rumdl.tar.gz",
+      "members": [
+        {
+          "path": "rumdl",
+          "file": "rumdl",
+          "size": 19104288,
+          "sha256": "7f2bce22b4b6278a648ad4b999eee35d4cd6034e3b8bc096cfe2bc3ff9951fbc",
+          "executable": true
+        }
+      ]
+    },
+    {
+      "repository": "lycheeverse/lychee",
+      "asset": 409959271,
+      "size": 7705781,
+      "sha256": "73657a111819a30c47c08352896796f23d64e4eb2b3ed39b6d32149241566fc5",
+      "file": "lychee.tar.gz",
+      "members": [
+        {
+          "path": "lychee-x86_64-unknown-linux-musl/lychee",
+          "file": "lychee",
+          "size": 19732664,
+          "sha256": "5c44b077feb43359fb7ad0fd60452e33e1ed8a7bfdbfe6fdad029a020252943b",
+          "executable": true
+        }
+      ]
+    },
+    {
+      "repository": "biomejs/biome",
+      "asset": 737014619,
+      "size": 97873016,
+      "sha256": "d924b8407471748465121f0a2dc1a0bc277038b0b89142e77583e3ce0dda3746",
+      "file": "biome",
+      "executable": true
+    },
+    {
+      "repository": "crate-ci/typos",
+      "asset": 733787189,
+      "size": 8281696,
+      "sha256": "3b13d1291281d39d01822e54035636487a7a0f228e70097899b1e33aeb0e7e93",
+      "file": "typos.tar.gz",
+      "members": [
+        {
+          "path": "./typos",
+          "file": "typos",
+          "size": 33752784,
+          "sha256": "f28379793973d25a39d7dc6c1a4b208cea26e2298d7022ed7320a5bbae8db774",
+          "executable": true
+        }
+      ]
+    }
+  ]
+}
