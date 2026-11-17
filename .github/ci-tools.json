@@ -32,6 +32,30 @@
           "executable": true
         }
       ]
+    },
+    {
+      "repository": "biomejs/biome",
+      "asset": 737014619,
+      "size": 97873016,
+      "sha256": "d924b8407471748465121f0a2dc1a0bc277038b0b89142e77583e3ce0dda3746",
+      "file": "biome",
+      "executable": true
+    },
+    {
+      "repository": "crate-ci/typos",
+      "asset": 733787189,
+      "size": 8281696,
+      "sha256": "3b13d1291281d39d01822e54035636487a7a0f228e70097899b1e33aeb0e7e93",
+      "file": "typos.tar.gz",
+      "members": [
+        {
+          "path": "./typos",
+          "file": "typos",
+          "size": 33752784,
+          "sha256": "f28379793973d25a39d7dc6c1a4b208cea26e2298d7022ed7320a5bbae8db774",
+          "executable": true
+        }
+      ]
     }
   ]
 }
