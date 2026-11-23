@@ -35,9 +35,9 @@
     },
     {
       "repository": "biomejs/biome",
-      "asset": 737014619,
-      "size": 97873016,
-      "sha256": "d924b8407471748465121f0a2dc1a0bc277038b0b89142e77583e3ce0dda3746",
+      "asset": 751278589,
+      "size": 99700856,
+      "sha256": "fc1cb7c6664d6fa315144f58bd03096ee5d035e641538840a80262d59203d5dd",
       "file": "biome",
       "executable": true
     },
